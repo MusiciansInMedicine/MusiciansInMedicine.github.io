@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@media (pointer:none), (pointer:coarse){
+@media (max-width:800){
     /*mobile css*/
     .mobile-disp{
         display: block;
@@ -8,7 +8,7 @@
         display: none;
     }
 }
-@media (pointer:fine){
+@media (min-width:800){
     /*desktop css*/
     .mobile-disp{
         display: none;
@@ -18,7 +18,7 @@
         background-color: #F6F6F6;
     }
     body{
-        background-color: #F6F6F6;
+        background-color: #212121;
     }
 }
 
