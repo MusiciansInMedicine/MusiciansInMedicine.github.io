@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@media (max-width: 700px){
+@media (max-width: 800px){
     /*mobile css*/
     .mobile-disp{
         display: block;
@@ -8,7 +8,7 @@
         display: none;
     }
 }
-@media (min-width: 700px){
+@media (min-width: 800px){
     /*desktop css*/
     .mobile-disp{
         display: none;
